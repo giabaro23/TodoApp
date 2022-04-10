@@ -1,11 +1,11 @@
 import React from "react";
 
-class FormNewsAdd extends React.Component {
+class FormNewsEdit extends React.Component {
     render() {
         return (
             <tr>
                 <td className="text-center">{this.props.id}</td>
-                <td><input type="text" className="form-control" value={this.props.name} /></td>
+                <td><input type="text" className="form-control" defaultValue={this.props.name} /></td>
                 <td className="text-center">
                     <select className="form-control">
                         <option>Small</option>
@@ -23,4 +23,4 @@ class FormNewsAdd extends React.Component {
     }
 }
 
-export default FormNewsAdd;
+export default FormNewsEdit;

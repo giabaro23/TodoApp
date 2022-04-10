@@ -1,5 +1,5 @@
 import React from "react";
-import FormNewsAdd from "./FormNewsAdd";
+import FormNewsEdit from "./FormNewsEdit";
 import NewsItem from "./NewsItem";
 
 class ListNews extends React.Component{
@@ -21,9 +21,9 @@ class ListNews extends React.Component{
                 <NewsItem id="3" name="Hơn 37.000 người nhập viện vì tai nạn giao thông, đốt pháo" level="Medium"/>
                 <NewsItem id="4" name="Gần 200 người chết vì tai nạn giao thông 7 ngày nghỉ Tết" level="Medium"/>
                 <NewsItem id="5" name="VFF giải ngân 15 tỷ đồng, tiền thưởng tới tay U23 VN trước Tết" level="Medium"/>
-                <FormNewsAdd id="6" name="F1 muốn tổ chức giải đua xe tại Việt Nam vào năm 2020"/>
+                <FormNewsEdit id="6" name="F1 muốn tổ chức giải đua xe tại Việt Nam vào năm 2020"/>
             </tbody>
-        </table>
+        </table>    
     </div>);
     }
 }
